@@ -1,0 +1,29 @@
+/* FOOTER */
+
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8902e;
+  display: block;
+  text-align: center;
+
+  z-index: 2;
+}
+
+/* HEADER */
+
+.brand {
+  font-size: 60px;
+  display: inline-block;
+  color: #ff6600;
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 4%;
+  padding-right: 70%;
+  font-family: aquire;
+  border-radius: 15px;
+  position: fixed;
+  top: 35px;
+  margin-left: 2%;
+  z-index: 1;
+}
