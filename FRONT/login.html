@@ -1,71 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PIADDIT</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
-    </head>
-    
-    <body>
-        <header>
-            <!--NavBar Section-->
-            <div class="navbar">
-                <nav class="navigation hide" id="navigation">
-                    <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="forums.html">Forums</a></li>
-                        <li class="nav-item"><a href="post.html">Posts</a></li>
-                        <li class="nav-item"><a href="detail.html">Detail</a></li>
-                    </ul>
-                </nav>
-                <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
-                <div class="brand">PIADDIT</div>
-            </div>
-            <!--SearchBox Section-->
-            <div class="search-box">
-                <div>
-                    <select name="" id="">
-                        <option value="Everything">Everything</option>
-                        <option value="Titles">Titles</option>
-                        <option value="Descriptions">Descriptions</option>
-                    </select>
-                    <input type="text" name="q" placeholder="search ...">
-                    <button><i class="fa fa-search"></i></button>
-                </div>
-            </div>
-        </header>
-    </body>
-    <section>
-        <div class = "form">
-            <form>
-                <div>
-                    <label>Username : </label>   
-                <input type="text" placeholder="Enter Username" name="username" required>  
-                </div>
-                <div>
-                    <label>Password : </label>   
-                <input type="password" placeholder="Enter Password" name="password" required>  
-                <button type="submit">Login</button>   
-                </div>
-                <div>
-                    <input type="checkbox" checked="checked"> Remember me  
-                </div>
-                <div>
-                    <label>First time?&nbsp&nbsp&nbsp</label>
-                    <button type="button"> <a href="register.html"> Register here</a></button> 
-                </div>
-                
-            </form>
-        </div>
-    </section>
-    <footer>
-        <span>&copy;  Paul Tham | All Rights Reserved</span>
-    </footer>
-    <script src="main.js"></script>
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIADDIT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
+  <body>
+    <header>
+      <!--NavBar Section-->
+      <div class="navbar">
+        <nav class="navigation hide" id="navigation">
+          <span class="close-icon" id="close-icon" onclick="showIconBar()"
+            ><i class="fa fa-close"></i
+          ></span>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="forums.html">Forums</a></li>
+            <li class="nav-item"><a href="post.html">Posts</a></li>
+            <li class="nav-item"><a href="detail.html">Detail</a></li>
+          </ul>
+        </nav>
+        <a class="bar-icon" id="iconBar" onclick="hideIconBar()"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <div class="brand">PIADDIT</div>
+      </div>
+      <!--SearchBox Section-->
+      <div class="search-box">
+        <div>
+          <select name="" id="">
+            <option value="Everything">Everything</option>
+            <option value="Titles">Titles</option>
+            <option value="Descriptions">Descriptions</option>
+          </select>
+          <input type="text" name="q" placeholder="search ..." />
+          <button><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+    </header>
+  </body>
+  <section>
+    <div class="form">
+      <form>
+        <div>
+          <label>Username : </label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="username"
+            required
+          />
+        </div>
+        <div>
+          <label>Password : </label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+          <button type="submit">Login</button>
+        </div>
+        <div><input type="checkbox" checked="checked" /> Remember me</div>
+        <div>
+          <label>First time?&nbsp&nbsp&nbsp</label>
+          <button type="button">
+            <a href="register.html"> Register here</a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <span>&copy; Paul Tham | All Rights Reserved</span>
+  </footer>
+  <script src="main.js"></script>
 </html>

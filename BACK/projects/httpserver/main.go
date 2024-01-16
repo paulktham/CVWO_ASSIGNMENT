@@ -11,8 +11,6 @@ import (
 	"gorm.io/gorm"
 )
 
-// var dsn = "user:pass@tcp(database-1.cluster-c7iiq4siobuj.ap-southeast-2.rds.amazonaws.com)/dbname?charset=utf8mb4&parseTime=True&loc=Local"
-// var db, _ = gorm.Open(mysql.Open(dsn), gorm.Config{})
 
 func enableCors(w *http.ResponseWriter) {
 	(*w).Header().Set("Access-Control-Allow-Origin", "*")

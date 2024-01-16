@@ -1,6 +1,7 @@
 import "./App.css";
+import "../pages/homepage.css";
 
-export function header() {
+function Header() {
   return (
     <body>
       <header>
@@ -25,3 +26,5 @@ export function header() {
     </body>
   );
 }
+
+export default Header;
