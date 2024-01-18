@@ -1,7 +1,6 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 
-import login from "./pages/Register";
-import HomePage from "./pages/HomePage";
+import HomePage from "../pages/HomePage";
 
 const queryClient = new QueryClient();
 
